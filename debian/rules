@@ -5,7 +5,7 @@ export GOCACHE := /tmp/gocache
 
 export DH_GOPKG := pkg.deepin.io/lib
 export DH_GOLANG_INSTALL_ALL := 1
- 
+
 %:
 	dh $@ --buildsystem=golang --with=golang
 
