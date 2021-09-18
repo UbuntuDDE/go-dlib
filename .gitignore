@@ -1,0 +1,9 @@
+*/*.test
+_tmp
+graphic/testdata/test_*
+gdkpixbuf/testdata/test*
+*.bak
+_*
+!dbusutil/_tool
+**/*.test
+coverage.csv
